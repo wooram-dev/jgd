@@ -1,0 +1,1576 @@
+{
+  "schema_version": 1,
+  "exported_at": "2026-09-16T12:07:06.057225+00:00",
+  "privacy": {
+    "contains_messages": false,
+    "contains_member_list": false,
+    "contains_secrets": false,
+    "discord_ids_included": false
+  },
+  "guild": {
+    "name": "종겜동",
+    "member_count": 141
+  },
+  "summary": {
+    "category_count": 15,
+    "channel_count": 84,
+    "channel_types": {
+      "forum": 6,
+      "news": 2,
+      "stage_voice": 1,
+      "text": 57,
+      "voice": 18
+    }
+  },
+  "categories": [
+    {
+      "name": "이벤트",
+      "position": 0,
+      "channels": [
+        {
+          "name": "🎈│이벤트",
+          "type": "news",
+          "position": 0,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "📡│스테이지",
+          "type": "stage_voice",
+          "position": 2,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 10000
+        }
+      ]
+    },
+    {
+      "name": "서버",
+      "position": 1,
+      "channels": [
+        {
+          "name": "🖐│환영합니다",
+          "type": "text",
+          "position": 1,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "✅│역할설정",
+          "type": "text",
+          "position": 2,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "🎆│서버홍보",
+          "type": "text",
+          "position": 3,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "📢│공지",
+          "type": "news",
+          "position": 4,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "📝│규칙",
+          "type": "text",
+          "position": 5,
+          "access": {
+            "access": "all_members",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        }
+      ]
+    },
+    {
+      "name": "뉴스",
+      "position": 2,
+      "channels": [
+        {
+          "name": "📰│스팀게임",
+          "type": "text",
+          "position": 6,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        }
+      ]
+    },
+    {
+      "name": "서포트",
+      "position": 3,
+      "channels": [
+        {
+          "name": "📞│고객센터",
+          "type": "text",
+          "position": 7,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        }
+      ]
+    },
+    {
+      "name": "커뮤니티",
+      "position": 4,
+      "channels": [
+        {
+          "name": "💬│대화",
+          "type": "text",
+          "position": 8,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "🎨│그림",
+          "type": "forum",
+          "position": 9,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "forum_tags": [
+            {
+              "name": "AI",
+              "moderated": false,
+              "emoji": "🤖"
+            },
+            {
+              "name": "창작",
+              "moderated": false,
+              "emoji": "🖌️"
+            }
+          ],
+          "default_sort_order": null,
+          "default_layout": "gallery_view"
+        },
+        {
+          "name": "💩│똥",
+          "type": "forum",
+          "position": 10,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "forum_tags": [],
+          "default_sort_order": null,
+          "default_layout": "not_set"
+        },
+        {
+          "name": "📷│일상-사진-영상",
+          "type": "forum",
+          "position": 11,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "forum_tags": [],
+          "default_sort_order": null,
+          "default_layout": "not_set"
+        },
+        {
+          "name": "📌│게임-스샷-클립",
+          "type": "forum",
+          "position": 12,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "forum_tags": [
+            {
+              "name": "스팀게임",
+              "moderated": false,
+              "emoji": null
+            },
+            {
+              "name": "배그",
+              "moderated": false,
+              "emoji": null
+            },
+            {
+              "name": "롤",
+              "moderated": false,
+              "emoji": null
+            },
+            {
+              "name": "마인크래프트",
+              "moderated": false,
+              "emoji": null
+            },
+            {
+              "name": "로스트아크",
+              "moderated": false,
+              "emoji": null
+            },
+            {
+              "name": "오버워치",
+              "moderated": false,
+              "emoji": null
+            },
+            {
+              "name": "메이플스토리",
+              "moderated": false,
+              "emoji": null
+            },
+            {
+              "name": "기타",
+              "moderated": false,
+              "emoji": null
+            },
+            {
+              "name": "사과게임 대회",
+              "moderated": false,
+              "emoji": "🍎"
+            }
+          ],
+          "default_sort_order": "creation_date",
+          "default_layout": "gallery_view"
+        },
+        {
+          "name": "💸│할인-정보",
+          "type": "forum",
+          "position": 13,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "forum_tags": [
+            {
+              "name": "게임",
+              "moderated": false,
+              "emoji": "🎮"
+            },
+            {
+              "name": "먹을거",
+              "moderated": false,
+              "emoji": "🍔"
+            },
+            {
+              "name": "생활용품",
+              "moderated": false,
+              "emoji": "🧦"
+            },
+            {
+              "name": "기타",
+              "moderated": false,
+              "emoji": null
+            }
+          ],
+          "default_sort_order": "creation_date",
+          "default_layout": "list_view"
+        }
+      ]
+    },
+    {
+      "name": "봇",
+      "position": 5,
+      "channels": [
+        {
+          "name": "😋│겜동이",
+          "type": "text",
+          "position": 14,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "🤖│봇",
+          "type": "text",
+          "position": 15,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "🎵│뽀삐",
+          "type": "text",
+          "position": 16,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "🎵│알로항",
+          "type": "text",
+          "position": 17,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "🗣│tts",
+          "type": "text",
+          "position": 18,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        }
+      ]
+    },
+    {
+      "name": "무슨무슨방",
+      "position": 6,
+      "channels": [
+        {
+          "name": "🤣│잡담방",
+          "type": "voice",
+          "position": 3,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 0
+        },
+        {
+          "name": "🧐│공부방",
+          "type": "voice",
+          "position": 4,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 0
+        },
+        {
+          "name": "😴│잠수방",
+          "type": "voice",
+          "position": 5,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 0
+        }
+      ]
+    },
+    {
+      "name": "게임방",
+      "position": 7,
+      "channels": [
+        {
+          "name": "👪│인원모집",
+          "type": "text",
+          "position": 19,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "🎲│보드게임-룰",
+          "type": "forum",
+          "position": 20,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "forum_tags": [],
+          "default_sort_order": null,
+          "default_layout": "not_set"
+        },
+        {
+          "name": "📜│게임방-설정",
+          "type": "text",
+          "position": 21,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "🎮│게임방-생성",
+          "type": "voice",
+          "position": 6,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 0
+        }
+      ]
+    },
+    {
+      "name": "JGD Minecraft 서버",
+      "position": 8,
+      "channels": [
+        {
+          "name": "ℹ️│서버-정보",
+          "type": "text",
+          "position": 22,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "💬│마크-채팅",
+          "type": "text",
+          "position": 23,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "광장1️⃣",
+          "type": "voice",
+          "position": 7,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 0
+        },
+        {
+          "name": "광장2️⃣",
+          "type": "voice",
+          "position": 8,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 0
+        },
+        {
+          "name": "광장3️⃣",
+          "type": "voice",
+          "position": 9,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 0
+        }
+      ]
+    },
+    {
+      "name": "내전방",
+      "position": 9,
+      "channels": [
+        {
+          "name": "집합소",
+          "type": "voice",
+          "position": 10,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 0
+        },
+        {
+          "name": "TEAM 1",
+          "type": "voice",
+          "position": 11,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 8
+        },
+        {
+          "name": "TEAM 2",
+          "type": "voice",
+          "position": 12,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 8
+        },
+        {
+          "name": "TEAM 3",
+          "type": "voice",
+          "position": 13,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 8
+        },
+        {
+          "name": "TEAM 4",
+          "type": "voice",
+          "position": 14,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 8
+        },
+        {
+          "name": "TEAM 5",
+          "type": "voice",
+          "position": 15,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 8
+        }
+      ]
+    },
+    {
+      "name": "로그",
+      "position": 10,
+      "channels": [
+        {
+          "name": "채팅-로그",
+          "type": "text",
+          "position": 24,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "음성-로그",
+          "type": "text",
+          "position": 25,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "처벌-로그",
+          "type": "text",
+          "position": 26,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "채널-로그",
+          "type": "text",
+          "position": 27,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "역할-로그",
+          "type": "text",
+          "position": 28,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "닉네임-로그",
+          "type": "text",
+          "position": 29,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "환영-로그",
+          "type": "text",
+          "position": 30,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "퇴장-로그",
+          "type": "text",
+          "position": 31,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "자판기-로그",
+          "type": "text",
+          "position": 32,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "부스트-로그",
+          "type": "text",
+          "position": 33,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "레벨업-로그",
+          "type": "text",
+          "position": 34,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        }
+      ]
+    },
+    {
+      "name": "관리",
+      "position": 11,
+      "channels": [
+        {
+          "name": "봇",
+          "type": "text",
+          "position": 35,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "이미지",
+          "type": "text",
+          "position": 36,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "신고",
+          "type": "text",
+          "position": 37,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "moderator-only",
+          "type": "text",
+          "position": 38,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        }
+      ]
+    },
+    {
+      "name": "로그",
+      "position": 12,
+      "channels": [
+        {
+          "name": "제재-로그",
+          "type": "text",
+          "position": 39,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "채팅-로그",
+          "type": "text",
+          "position": 40,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "음성-로그",
+          "type": "text",
+          "position": 41,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "부스트-로그",
+          "type": "text",
+          "position": 42,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        }
+      ]
+    },
+    {
+      "name": "휴지통",
+      "position": 13,
+      "channels": [
+        {
+          "name": "💬│팰월드-채팅",
+          "type": "text",
+          "position": 43,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "🤪│설문-놀이",
+          "type": "text",
+          "position": 44,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "📰│리그오브레전드",
+          "type": "text",
+          "position": 45,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "📰│배틀그라운드",
+          "type": "text",
+          "position": 46,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "📰│발로란트",
+          "type": "text",
+          "position": 47,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "📰│오버워치",
+          "type": "text",
+          "position": 48,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "📰│메이플스토리",
+          "type": "text",
+          "position": 49,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "📰│로스트아크",
+          "type": "text",
+          "position": 50,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "😢│찌질이-겜동이",
+          "type": "text",
+          "position": 51,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "🤔│팩트충-겜동이",
+          "type": "text",
+          "position": 52,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "📬│초대링크",
+          "type": "text",
+          "position": 53,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "ℹ️│서버-정보",
+          "type": "text",
+          "position": 54,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "📰│게임-소식",
+          "type": "text",
+          "position": 55,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "🧟│서버정보",
+          "type": "text",
+          "position": 56,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "💬│채팅",
+          "type": "text",
+          "position": 57,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "🏆│롤드컵",
+          "type": "text",
+          "position": 58,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "🍎│사과게임-대회",
+          "type": "text",
+          "position": 59,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "🔔│대회-안내",
+          "type": "text",
+          "position": 60,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "💬│대회-수다",
+          "type": "text",
+          "position": 61,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "📌│클립",
+          "type": "text",
+          "position": 62,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "🙄│무언가 재배하던방",
+          "type": "voice",
+          "position": 16,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 0
+        },
+        {
+          "name": "🥕│메인",
+          "type": "voice",
+          "position": 17,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 0
+        }
+      ]
+    },
+    {
+      "name": "JGD Palworld 서버",
+      "position": 14,
+      "channels": [
+        {
+          "name": "ℹ️│서버-정보",
+          "type": "text",
+          "position": 63,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "💬│팰월드-채팅",
+          "type": "text",
+          "position": 64,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false
+        },
+        {
+          "name": "베비뇽",
+          "type": "voice",
+          "position": 18,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 0
+        },
+        {
+          "name": "아누비스",
+          "type": "voice",
+          "position": 19,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 0
+        },
+        {
+          "name": "제트래곤",
+          "type": "voice",
+          "position": 20,
+          "access": {
+            "access": "restricted",
+            "everyone_can_send": false,
+            "bot": {
+              "can_view": true,
+              "can_read_history": true,
+              "can_send": true,
+              "can_send_in_threads": true
+            }
+          },
+          "nsfw": false,
+          "user_limit": 0
+        }
+      ]
+    }
+  ]
+}
