@@ -10,6 +10,8 @@ Discord Bot Main Entry Point
 import asyncio
 import sys
 import logging
+import aiohttp
+import discord
 from bot import create_bot, Config
 
 # Set up logging
@@ -24,29 +26,61 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
+GATEWAY_RETRY_DELAYS = (5, 10, 30, 60)
+
+
+def is_retryable_gateway_error(error: Exception) -> bool:
+    """Return whether a transient Gateway failure should restart the client."""
+    if isinstance(error, (aiohttp.ClientError, discord.ConnectionClosed, discord.GatewayNotFound, discord.DiscordServerError, OSError)):
+        return True
+
+    # discord.py can raise this secondary error after a failed WebSocket
+    # handshake, when no websocket sequence has been established yet.
+    return (
+        isinstance(error, AttributeError)
+        and "'NoneType' object has no attribute 'sequence'" in str(error)
+    )
+
 async def main():
     """Main function to run the bot"""
     try:
-        # Validate configuration
         Config.validate()
-        logger.info("Configuration validated successfully")
-        
-        # Create bot instance
-        bot = create_bot()
-        logger.info("Bot instance created")
-        
-        # Start the bot
-        logger.info("Starting bot...")
-        async with bot:
-            await bot.start(Config.DISCORD_TOKEN)
-            
     except ValueError as e:
         logger.error(f"Configuration error: {e}")
         logger.error("Please check your .env file and make sure all required values are set")
         sys.exit(1)
-    except Exception as e:
-        logger.error(f"Unexpected error: {e}")
-        sys.exit(1)
+
+    logger.info("Configuration validated successfully")
+    retry_attempt = 0
+
+    while True:
+        bot = create_bot()
+        logger.info("Bot instance created")
+        logger.info("Starting bot...")
+
+        try:
+            async with bot:
+                await bot.start(Config.DISCORD_TOKEN, reconnect=False)
+        except Exception as e:
+            if not is_retryable_gateway_error(e):
+                logger.exception("Bot stopped because of an unexpected error")
+                raise
+
+            delay = GATEWAY_RETRY_DELAYS[
+                min(retry_attempt, len(GATEWAY_RETRY_DELAYS) - 1)
+            ]
+            retry_attempt += 1
+            logger.warning(
+                "Discord Gateway connection failed (%s). Retrying in %s seconds "
+                "(attempt %s).",
+                e,
+                delay,
+                retry_attempt,
+            )
+            await asyncio.sleep(delay)
+        else:
+            logger.info("Bot stopped normally")
+            return
 
 if __name__ == "__main__":
     try:

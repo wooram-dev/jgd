@@ -10,7 +10,7 @@ class TpsCommand(BaseCommand):
 
     @property
     def name(self) -> str:
-        return "마크_TPS"
+        return "마크_tps"
 
     @property
     def description(self) -> str:
